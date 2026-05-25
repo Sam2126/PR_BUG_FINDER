@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import {
   FileCode2, CheckCircle2, Loader2, AlertCircle,
-  Clock, Shield, Bug, Zap
+  Clock, Shield, Bug
 } from 'lucide-react';
 import type { FileAnalysis } from '../types';
 

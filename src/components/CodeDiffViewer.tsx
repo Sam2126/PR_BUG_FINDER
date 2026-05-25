@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import {
-  FileCode2, AlertTriangle, Shield, Bug, Zap,
-  Lightbulb, ChevronDown, ChevronRight, Plus, Minus,
+  FileCode2, AlertTriangle, Shield, Zap,
+  Lightbulb, Plus, Minus,
   MessageSquare
 } from 'lucide-react';
 import type { FileAnalysis, ReviewIssue, Severity } from '../types';

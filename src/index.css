@@ -1649,6 +1649,7 @@ textarea.input {
   cursor: pointer;
   transition: all var(--transition-base);
   animation: fadeInUp 0.4s ease both;
+  flex-shrink: 0;
 }
 
 .issue-card:hover {
@@ -3595,6 +3596,7 @@ textarea.input {
   cursor: pointer;
   animation: fadeInUp 0.3s ease forwards;
   transition: all var(--transition-fast) !important;
+  flex-shrink: 0 !important;
 }
 
 .issue-card:hover {

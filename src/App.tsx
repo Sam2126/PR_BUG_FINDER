@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useRef } from 'react';
+import { useState, useCallback } from 'react';
 import { Header, Landing } from './components/Header';
 import { PRList } from './components/PRList';
 import { AnalysisProgress } from './components/AnalysisProgress';

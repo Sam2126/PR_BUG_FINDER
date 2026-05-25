@@ -1,7 +1,7 @@
 import React from 'react';
 import {
-  Shield, GitPullRequest, AlertTriangle, CheckCircle2, Info,
-  ExternalLink, Clock, GitBranch, FileCode2, Plus, Minus
+  Shield, GitPullRequest,
+  GitBranch, FileCode2, Plus, Minus
 } from 'lucide-react';
 import type { PullRequest } from '../types';
 

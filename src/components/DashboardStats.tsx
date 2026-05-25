@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import {
-  AlertTriangle, Shield, Zap, Bug, TrendingUp,
-  Clock, Award, ChevronUp, ChevronDown
+  AlertTriangle, Shield, Zap, Bug,
+  Clock
 } from 'lucide-react';
 import type { ReviewResult } from '../types';
 

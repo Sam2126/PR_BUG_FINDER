@@ -1,8 +1,8 @@
 import React, { useState, useMemo } from 'react';
 import {
   AlertTriangle, Shield, Bug, Zap, Code2, Lightbulb,
-  ChevronDown, ChevronRight, FileCode2, ExternalLink,
-  Filter, CheckCircle2, Copy, Check
+  ChevronDown, ChevronRight, FileCode2,
+  Filter, Copy, Check
 } from 'lucide-react';
 import type { ReviewIssue, Severity, IssueCategory } from '../types';
 

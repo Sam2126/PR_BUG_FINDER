@@ -15,10 +15,6 @@ interface HeaderProps {
 }
 
 export const Header: React.FC<HeaderProps> = ({
-  config,
-  onConfigChange,
-  onConnect,
-  onDemo,
   isConnected,
   step
 }) => {
