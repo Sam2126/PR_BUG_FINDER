@@ -7,6 +7,8 @@ CrewAI Agent and Crew definitions for the CodeLens AI Agent.
 3. Lead Reviewer - Compiles findings into final verdict
 """
 
+import os
+from dotenv import load_dotenv
 from crewai import Agent, Task, Crew, Process, LLM
 from typing import List, Dict, Any, Callable, Optional
 from tools import (
